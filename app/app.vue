@@ -1,6 +1,12 @@
+<script setup lang="ts">
+import { IntroductionContent } from '#components';
+import TeamSection from './components/TeamSection.vue';
+
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <AppHeader />
+  <IntroductionContent />
+  <TeamSection />
+  <MainContent />
 </template>
